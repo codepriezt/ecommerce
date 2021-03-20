@@ -1,0 +1,32 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "e-commerce end point",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint --ignore-path .gitignore",
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rilwanmajaagun/e-commerce.git"
+  },
+  "author": "rilwan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rilwanmajaagun/e-commerce/issues"
+  },
+  "homepage": "https://github.com/rilwanmajaagun/e-commerce#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "eslint": "^7.4.0",
+    "eslint-config-strongloop": "^2.1.0",
+    "nodemon": "^2.0.4"
+  }
+}
